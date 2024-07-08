@@ -45,3 +45,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 5. nav bar import to layout cuz we r going to use everywhere
 6. write use client when using react hooks
 7. npm install next-auth (to use next-auth)
+8. provider should be wrape din layout
+9. create new folder api auth
+10. Go to google auth cloud url like(https://console.cloud.google.com/apis/credentials?authuser=1&project=promptopia-428515) and create oo auth credentials
+
+11. $ openssl rand -base64 32 for creating our env secret run this in open ssl trminal online would give some random string
+12. Just copy paste nextjs config dont now why
+13. Add This to google https://localhost:3000/api/auth/callback/google
+14. connect mongodb url keep all of auth inside the callback
