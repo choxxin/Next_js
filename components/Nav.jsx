@@ -84,7 +84,7 @@ const Nav = () => {
                 <Link
                   href={"/profile"}
                   className="dropdown_link"
-                  onclick={() => settoggleDropdown(false)}
+                  onClick={() => settoggleDropdown(false)}
                 >
                   My Profile
                 </Link>
@@ -92,14 +92,14 @@ const Nav = () => {
                 <Link
                   href="/create-prompt"
                   className="dropdown_link"
-                  onclick={() => settoggleDropdown(false)}
+                  onClick={() => settoggleDropdown(false)}
                 >
                   Create Prompt
                 </Link>
 
                 <button
                   type="button"
-                  onclick={() => settoggleDropdown(false)}
+                  onClick={() => settoggleDropdown(false)}
                   className="mt-5 w-full black_btn"
                 >
                   Sign Out
